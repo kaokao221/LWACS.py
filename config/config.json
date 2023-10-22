@@ -1,0 +1,38 @@
+{
+    "web-service": {
+        "web-domain": "127.0.0.1",
+        "protocols": {
+            "http": true,
+            "https": true,
+            "tcp": false
+        },
+        "ports": {
+            "http": 33337,
+            "https": 33338
+        }
+    },
+    "account-service": {
+        "cookie": "",
+        "X-Hd-Csrf": "",
+        "Agcteamid": "",
+        "login-info": {
+            "account-name": "",
+            "account-password": ""
+        },
+        "authenticator-message": {
+            "mail-type": "self-build-platform",
+            "server": ""
+        }
+    },
+    "applications": {
+        "00000001": {
+            "app-name": {
+                "zh_cn": "通用签名授权",
+                "en_uk": "Universal Significant Authenticator"
+            },
+            "app-cost": {
+                "type": 1
+            }
+        }
+    }
+}
