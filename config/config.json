@@ -25,13 +25,26 @@
         }
     },
     "applications": {
-        "00000001": {
+        "00000000": {
             "app-name": {
                 "zh_cn": "通用签名授权",
                 "en_uk": "Universal Significant Authenticator"
             },
             "app-cost": {
                 "type": 1
+            }
+        }
+    },
+    "accounts": {
+        "00000000": {
+            "user_name": "General",
+            "user_comments": [],
+            "devices": {
+                "00000000": {
+                    "UUID": "None",
+                    "device_name": "HUAWEI WATCH GT 4-000",
+                    "bought_apps": []
+                }
             }
         }
     }
